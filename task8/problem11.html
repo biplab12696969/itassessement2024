@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="text1">
+<input type="button" value="Add" onclick="add_element_to_array();">
+<input type="button" value="Display" onclick="display_array();">
+<div id="Result"></div>
+
+<script>
+  var x = 0;
+  var array = Array();
+
+  function add_element_to_array() {
+    array[x] = document.getElementById("text1").value;
+    alert("Element: " + array[x] + " Added at index " + x);
+    x++;
+    document.getElementById("text1").value = "";
+  }
+
+  function display_array() {
+    var e = "<hr/>";
+    for (var y = 0; y < array.length; y++) {
+      e += "Element " + y + " = " + array[y] + "<br/>";
+    }
+    document.getElementById("Result").innerHTML = e;
+  }
+</script>
+
+</body>
+</html>
+<!--By Biplab Prasad Gajurel 25024641-->
