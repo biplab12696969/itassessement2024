@@ -1,0 +1,157 @@
+body{
+    border: 1.6px ridge black;
+    font-family: cursive;
+}
+
+#firstbox{
+    height: 49px;
+    background-color: rgb(196, 191, 191);   
+    border-top: 1px solid black;
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    font-size: 25px;
+    padding-left: 19px;
+}
+
+input{
+    height: 12px;
+    width: 1090px;
+    margin: 11px;
+    font-family: cursive;
+    font-size: 9px;
+}
+
+.h4{
+    font-size: 9px;
+    display: flex;
+    text-align: center;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px;
+}
+
+.heading{
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.logo{
+    font-size: smaller;
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 9px;
+}
+
+.calls{
+    font-size: 10px;
+    display: flex;
+    justify-content: right;
+    padding: 6px;
+    padding-right: 18px;
+
+}
+
+.box{
+    border: 1px solid black;
+    font-family: cursive;
+    padding: 2px 4px 2px 4px;
+    font-size: 8px;
+}
+
+main {
+    padding: 30px;
+    text-align: left;
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.company_Logo{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 9px;
+    align-items: center;
+    background: #ccc;
+    text-align: center;
+}
+
+#Cocacola1{
+    width: 600px;
+    height: 280px;
+    padding: 15px;
+    background-color: rgb(234, 233, 233);
+    margin: 10px;
+    text-align: left;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    height: 200px;
+    border-top: 1px solid black;
+}
+
+nav{
+    width: 250px;
+    float: left;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+article{
+    width: 600px;
+    padding: 20px;
+    font-size: 12px;
+    float: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#last{
+    margin: 20px;
+    float: left;
+    width: 170px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.lastext{
+    padding: 19px;
+    font-size: 13px;
+    float: right;
+}
+
+#lastbox{
+    height: 19px;
+    background-color: rgb(196, 191, 191);   
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-decoration: none;
+}
