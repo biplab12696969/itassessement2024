@@ -1,0 +1,212 @@
+/* Coded by Biplab Prasad Gajurel 25024641 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+nav .logo {
+  font-size: 1.5em;
+  color: #00ff99;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00ff99;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #1e1e1e;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  color: #00ff99;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  margin: 20px 0;
+}
+
+.slider img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: none;
+  transition: opacity 1s;
+}
+
+.content {
+  padding: 20px;
+  line-height: 1.6;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.content h2 {
+  color: #00ff99;
+  margin-bottom: 10px;
+}
+
+.content ul {
+  padding-left: 20px;
+}
+
+.content li {
+  margin-bottom: 8px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #00ff99;
+  cursor: pointer;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #00ff99;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  background-color: #222;
+  color: #f0f0f0;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #00ff99;
+  color: #121212;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #00cc77;
+}
+
+table.product-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+table.product-table th,
+table.product-table td {
+  border: 1px solid #00ff99;
+  padding: 10px;
+  text-align: left;
+}
+
+table.product-table th {
+  background-color: #1e1e1e;
+  color: #00ff99;
+}
+
+table.product-table tr:nth-child(even) {
+  background-color: #222;
+}
+
+footer {
+  background-color: #1e1e1e;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #00ff99;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  nav ul li {
+    margin: 10px 0;
+  }
+}
